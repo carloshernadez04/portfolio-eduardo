@@ -1,171 +1,83 @@
 export const personalInfo = {
-  name: "Lorem Ipsum",
-  location: "Dolor Sit Amet",
-  email: "lorem@ipsum.com",
-  github: "https://github.com/loremipsum",
-  linkedin: "https://linkedin.com/in/loremipsum",
-  profilePicture: "/profile.jpeg",
+  name: "Eduardo Campos",
+  location: "Sonsonate, El Salvador",
+  email: "ml3952597@gmail.com",
+  github: "https://github.com/eduardoCampos03",
+  linkedin: "https://www.linkedin.com/in/marvin-eduardo-lopez-campos-14b010302/",
+  profilePicture: "/eduardo.png",
   heroDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Técnico en Desarrollo de Software enfocado en Frontend (Astro & Next.js). Especialista en TypeScript y JavaScript, con capacidad para construir experiencias web rápidas, accesibles y modernas. Responsable, autodidacta y listo para integrarme en equipos de desarrollo que busquen innovación técnica y compromiso profesional.",
 };
 
 export const workExperience = [
   {
-    company: "Lorem Ipsum Corp",
-    location: "Lorem City",
-    position: "Lorem Engineer",
-    period: "Jan 2020 - Present",
+    company: "SeedCode",
+    location: "Sonsonate",
+    position: "FrontEnd Developer",
+    period: "Agosto 2024 - Enero 2025",
     achievements: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
-      "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio.",
+      "Creacion de paginas web informativas.",
+      "Elaboracion de diseños.",
+      "Capacitacion de clientes en uso de sistemas.",
+      "Uso de framework modernos.",
     ],
   },
-  {
-    company: "Dolor Sit Amet",
-    location: "Ipsumville",
-    position: "Software Developer",
-    period: "Feb 2019 - Jan 2020",
-    achievements: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-    ],
-  },
-  {
-    company: "Consectetur Inc.",
-    location: "Adipiscing, Ipsum",
-    position: "Intern",
-    period: "Jun 2018 - Feb 2019",
-    achievements: [
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-    ],
-  },
+
 ];
 
 export const education = [
   {
-    institution: "Lorem Ipsum University",
-    location: "Lorem City",
-    degree: "BSc Lorem Ipsum",
-    period: "2015 - 2019",
+    institution: "ESFE - Agape",
+    location: "Sonzacate, Sonsonate",
+    degree: "Tecnico en Desarrollo de Software",
+    period: "2024 - 2024",
     achievements: [
-      "President of Lorem Ipsum Club",
-      "Organized multiple lorem events",
-      "Represented university in national competitions.",
-      "Graduated with honors.",
+      "Manejo de bases de datos SQL",
+      "Manejo de Meetodologias SCRUM",
+      "Creacion de paginas web responsive.",
+    ],
+  },
+    {
+    institution: "Universidad Dr. Andres Bello",
+    location: "Sonsonate",
+    degree: "Ing. Sistemas Computacionales",
+    period: "2025 - Actualidad",
+    achievements: [
+      "Documentacion de software",
+      "Logica de Programacion",
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "LoremLang",
-    "IpsumScript",
-    "DolorLang",
-    "SitLang",
-    "AmetLang",
-    "ConsecteturLang",
+    "JavaScript",
+    "TypeScript",
+    "SQL",
+    "Java",
+    "C#",
   ],
   frontendDevelopment: [
-    "LoremJS",
-    "IpsumJS",
-    "Dolor Native",
-    "Sit UI",
-    "Amet CSS",
+    "NextJS",
+    "AstroJS",
     "HTML",
     "CSS",
+    "TaildWindCSS"
   ],
-  backendDevelopment: ["LoremNode", "IpsumExpress"],
-  databaseAndStorage: ["LoremDB", "IpsumORM"],
-  cloudAndDevOps: ["LoremCloud"],
-  toolsAndServices: [
-    "LoremAuth",
-    "IpsumCMS",
-    "DolorAnalytics",
-    "SitValidator",
-    "AmetMonitor",
-    "ConsecteturPanel",
-    "AdipiscingTrigger",
-  ],
+  backendDevelopment: ["NodeJS", ".NET"],
+  databaseAndStorage: ["SQL Server", "MySQL"],
+  cloudAndDevOps: [""],
+  toolsAndServices: [""],
 };
 
 export const projects = [
   {
-    title: "Lorem Ipsum Project",
-    github: "https://github.com/loremipsum/project",
+    title: "XChange",
+    github: "https://github.com/armandoC1/XChange-API",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
+      "Sitio web creado en NextJS y Spring Boot.",
+      "Sitio para fomentar el reciclaje mediante el cambio de cambio de cosas que ya no utlizamos.",
+      "Este proyecto fue hecho en grupo, donde se implemento la metodolia SCRUM.",
     ],
   },
-  {
-    title: "Dolor Sit Amet App",
-    github: "https://github.com/loremipsum/dolorapp",
-    description: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
-    ],
-  },
-];
 
-export const awards = [
-  {
-    name: "Lorem Ipsum Award",
-    issuer: "Lorem Organization",
-    date: "Jan 2020",
-    type: "International",
-    position: "First Place",
-  },
-  {
-    name: "Dolor Sit Amet Prize",
-    issuer: "Ipsum Foundation",
-    date: "Feb 2021",
-    type: "National",
-    position: "Runner-up",
-  },
-  {
-    name: "Consectetur Hackathon",
-    issuer: "Adipiscing Org",
-    date: "Mar 2022",
-    type: "National",
-    position: "Winner",
-  },
-  {
-    name: "Vestibulum Event",
-    issuer: "Vestibulum College",
-    date: "Apr 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "Curabitur Hackfest",
-    issuer: "Curabitur Institute",
-    date: "May 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Praesent Hacks",
-    issuer: "Praesent Group",
-    date: "Jun 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Fusce Hack",
-    issuer: "Fusce Club",
-    date: "Jul 2022",
-    type: "National",
-    position: "Most Impactful Hack",
-  },
 ];
