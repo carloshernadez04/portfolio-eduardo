@@ -25,6 +25,15 @@ export const workExperience = [
 
 ];
 
+export const awards = [
+  {
+    title: "Certificación en Frontend",
+    organization: "Platzi / Udemy",
+    date: "2024",
+  },
+  // Agrega más si tienes, o deja este de ejemplo
+];
+
 export const education = [
   {
     institution: "ESFE - Agape",
